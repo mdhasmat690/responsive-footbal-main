@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: Poppins; */
 }
 
 
@@ -67,7 +66,7 @@ background: #2d25a0;
 }
 
 
-button{
+.watch-now{
   text-decoration: none;
  background-color: red;
  color: white;
@@ -77,7 +76,7 @@ button{
 }
 
 
-button:hover{
+.watch-now:hover{
   transform: scaleX(1.5);
 }
 
@@ -157,7 +156,9 @@ main {
   left: 182px;
   top: 2948px;
 } 
+/* section two end */
 
+/* footer start */
 footer {
   margin-top: 50px;
 }
@@ -168,7 +169,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
+/* footer end */
 
+/* resposive start */
 @media only screen and (max-width: 688px) {
   .main{
     width: 100%;
@@ -207,5 +210,55 @@ footer {
   button {
     margin-bottom: 36px;
   }
+  .login-container {
+   flex-direction: column;
+   align-items: center;
+  }
   
  }  
+/* resposive end */
+
+
+/* login start */
+ .login-width {
+  margin-top: 56px;
+  
+ }
+
+ .login-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.login-from{
+  width: 307px;
+
+}
+
+.login-from h3 {
+  /* font-size: 24px; */
+  margin-top: 64px;
+}
+
+
+.login-from input, button{
+  font-size: 1.3em;
+  margin-top: 15px;
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  border-radius: 5px;
+  width: 285px;
+    height: 50px;
+}
+
+.login-from button {
+  background-color: orange;
+  color: whitesmoke;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+span {
+  color: red;
+}
+
+/* login start */
