@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins;
+  /* font-family: Poppins; */
 }
 
 
@@ -45,26 +45,39 @@ background: #2d25a0;
 .half-width img {
   width: 556.01px;
   height: 438px;
-
   margin-top: 67px;
   margin-left: -125px; 
 } 
 
 
 
-.content a {
+.link-button {
   text-decoration: none;
-   /* background-image: linear-gradient(rgb(201, 44, 44);  */
   background-color: red;
   color: white;
   font-weight: 700;
   padding: 10px 24px;
-   /* display: inline-block; */
-  /* box-shadow: 0px 5px 35px 0px rgb(182 137 90); */
+   display: inline-block; 
   transition: ease-in, transform 1s;
 } 
 
-.content a:hover{
+
+.link-button:hover{
+  transform: scaleX(1.5);
+}
+
+
+button{
+  text-decoration: none;
+ background-color: red;
+ color: white;
+ font-weight: 700;
+ padding: 10px 24px;
+ transition: ease-in, transform 1s;
+}
+
+
+button:hover{
   transform: scaleX(1.5);
 }
 
@@ -87,6 +100,16 @@ main {
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+}
+
+.player-name {
+  font-size: 2rem;
+}
+
+.player p {
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
 }
 .player img {
   width: 100%;
@@ -135,6 +158,9 @@ main {
   top: 2948px;
 } 
 
+footer {
+  margin-top: 50px;
+}
 
 .foot {
   display: flex;
@@ -153,8 +179,6 @@ main {
     align-items: center;
   }
   .play-country{
-   
-    /* width: 100%; */
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -180,6 +204,8 @@ main {
     align-items: center;
    
   }
-  
+  button {
+    margin-bottom: 36px;
+  }
   
  }  
